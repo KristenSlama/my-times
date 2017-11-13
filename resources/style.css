@@ -80,10 +80,13 @@ nav li a {
   font-size: 30px;
   color: white;
   height: 300px;
+  text-align: center;
 }
 
 .headline.main {
   background-image: url(./images/img-story-main.png);
+  font-size: 40px;
+  text-align: left;
 }
 
 .headline.earth {
@@ -98,5 +101,9 @@ nav li a {
 
 .headline.camera {
   background-image: url(./images/img-story-3.png);
-  backrgound-repeat: repeat;
+  background-repeat: repeat;
+}
+
+h1 {
+  font-size: 22px;
 }
