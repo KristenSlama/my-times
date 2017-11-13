@@ -1,17 +1,25 @@
+div {
+  border: 1px solid black;
+}
+
 header {
   display: flex;
+  position: fixed;
   font-family: Verdana;
   font-size: 14px;
   font-weight: bold;
-  position: fixed;
   border-bottom: 1px solid black;
   width: 100%;
   padding: 5px 25px;
+  background-color: white;
+  z-index: 1;
+  margin: 0 auto;
 }
 
 #logo {
   display: flex;
   color: MediumAquamarine;
+  width: 75%;
 }
 
 #logo p {
@@ -22,7 +30,7 @@ nav {
   display: flex;
   position: relative;
   top: 10px;
-  left: 900px;
+  left: 10px;
 }
 
 nav li {
@@ -32,4 +40,63 @@ nav li {
 nav li a {
   color: black;
   padding: 10px;
+}
+
+#content {
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+  top: 50px;
+  padding: 50px 40px 0 0;
+  margin: 0 50px 100px 50px;
+}
+
+.column {
+  display: flex;
+  flex-direction: column;
+}
+
+.column.large {
+  width: 630px;
+}
+
+.column.medium {
+  width: 300px;
+}
+
+.column.small {
+  width: 240px;
+}
+
+.story {
+  font-family: Georgia;
+  font-size: 17px;
+  color: black;
+}
+
+.headline {
+  font-family: Georgia;
+  font-weight: bold;
+  font-size: 30px;
+  color: white;
+  height: 300px;
+}
+
+.headline.main {
+  background-image: url(./images/img-story-main.png);
+}
+
+.headline.earth {
+  background-image: url(./images/img-story-2.png);
+  background-repeat: repeat;
+}
+
+.headline.cats {
+  background-image: url(./images/img-story-1.png);
+  background-repeat: repeat;
+}
+
+.headline.camera {
+  background-image: url(./images/img-story-3.png);
+  backrgound-repeat: repeat;
 }
