@@ -158,3 +158,34 @@ nav li a {
 h1 {
   font-size: 22px;
 }
+
+footer {
+  background-color: MediumAquamarine;
+  margin: auto;
+  font-family: Verdana;
+  font-size: 12px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 250px;
+}
+
+#top-line {
+  display: inline-flex;
+  justify-content: center;
+}
+
+#top-line span {
+  font-family: Georgia;
+  font-size: 16px;
+  font-weight: bold;
+  color: white;
+}
+
+#top-line nav {
+  padding-top: 0px;
+}
+
+#bottom-line p {
+  text-align: center;
+}
